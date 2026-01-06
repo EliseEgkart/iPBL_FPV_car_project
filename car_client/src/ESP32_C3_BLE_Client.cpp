@@ -3,8 +3,8 @@
 #include <ESP32Servo.h>
 
 // UUID를 BLEUUID 객체로 정의 (서비스와 특성의 고유 식별자)
-static BLEUUID serviceUUID("a5944480-9116-4bc8-addb-5b4bcb7dc698");
-static BLEUUID charUUID("3665520f-7d6c-4a8d-8c43-667dc712cdd8");
+static BLEUUID serviceUUID("d193b1a0-7afd-4b78-b104-c3922271fc76");
+static BLEUUID charUUID("ad61ea0d-26eb-4dc5-a0f3-7a63ad1cebd3");
 static boolean doConnect = false;
 static boolean connected = false;
 static boolean doScan = true;
